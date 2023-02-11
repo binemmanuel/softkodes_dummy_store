@@ -1,0 +1,27 @@
+{
+	"name": "softkodes/dev_task",
+	"description": "Dev task project for softkodes",
+	"type": "project",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Softkodes\\DevTask\\": "src/",
+			"Controller\\": "src/controllers/",
+			"Model\\": "src/models/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Bin Emmanuel",
+			"email": "textme@binemmanuel.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"binemmanuel/servemyphp": "v1.0.14",
+		"vudev/jsonwebtoken": "v0.0.7"
+	},
+	"require-dev": {
+		"vlucas/phpdotenv": "v5.5.0"
+	}
+}
