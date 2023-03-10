@@ -11,6 +11,8 @@ class Product extends BaseModel
     public ?String $name;
     public ?float $price;
     public ?String $currency;
+    public ?String $description;
+    public ?String $image;
     public ?String $updatedOn;
     public ?String $createdOn;
 
@@ -29,5 +31,11 @@ class Product extends BaseModel
     protected function rules(): array
     {
         return self::$rules;
+    }
+
+    public function save(): array
+    {
+        $this->productId = $this->_id;
+        return parent::save();
     }
 }
