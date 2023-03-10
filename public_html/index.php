@@ -24,13 +24,13 @@ $router = new Router($database);
 
 $router->get('/products/get/all', [Product::class, 'getAll']);
 $router->get('/products/get', [Product::class, 'get']);
-$router->post( '/products/add', [Product::class, 'add']);
+$router->post('/products/add', [Product::class, 'add']);
 $router->post('/products/upload/cover', [Product::class, 'addProductImage']);
 
 // addProductImage
 
 $router->get('/',  function (Request $request, Response $response) {
-    return $response::sendJson(['message' => 'Dev Test API'])
+    return $response::sendJson(['message' => 'Dev Test API']);
 });
 
 $router->run();
