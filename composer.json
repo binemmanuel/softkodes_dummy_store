@@ -19,7 +19,8 @@
 	"minimum-stability": "dev",
 	"require": {
 		"binemmanuel/servemyphp": "v1.0.14",
-		"vudev/jsonwebtoken": "v0.0.7"
+		"vudev/jsonwebtoken": "v0.0.7",
+		"rebasedata/php-client": "dev-master"
 	},
 	"require-dev": {
 		"vlucas/phpdotenv": "v5.5.0"

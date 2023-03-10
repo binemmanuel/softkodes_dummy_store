@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d29a8b1d80334741b67814de231e32b",
+    "content-hash": "5a677cff4f008d5a4a1f551060102c90",
     "packages": [
         {
             "name": "binemmanuel/servemyphp",
@@ -288,6 +288,48 @@
                 }
             ],
             "time": "2023-02-07T16:14:23+00:00"
+        },
+        {
+            "name": "rebasedata/php-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rebasedata/php-client.git",
+                "reference": "9a2e89b18e7ec6d4edee3bf923b03f8a5915fe4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rebasedata/php-client/zipball/9a2e89b18e7ec6d4edee3bf923b03f8a5915fe4f",
+                "reference": "9a2e89b18e7ec6d4edee3bf923b03f8a5915fe4f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "ext-zip": "*",
+                "phpunit/phpunit": "^8"
+            },
+            "suggest": {
+                "ext-zip": "Allows compressed up- and downloads"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RebaseData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "RebaseData API client for PHP",
+            "support": {
+                "issues": "https://github.com/rebasedata/php-client/issues",
+                "source": "https://github.com/rebasedata/php-client/tree/v1.0.7"
+            },
+            "time": "2022-10-29T11:11:38+00:00"
         },
         {
             "name": "vudev/jsonwebtoken",
